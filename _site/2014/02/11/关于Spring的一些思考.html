@@ -38,7 +38,11 @@
 
 <p><img src='/image/spring-aop.png' style='width:600px;display:block;margin-left:auto;margin-right:auto' /></p>
 
-<p>如上图所示，有一些例如Log，Security，Tansaction Manager公共的服务模块，在我们写每个业务类的时候都需要，并且可以插入到调用的方法之前，之后，抛出异常时等地方，通过把所有公共组件统一封装起来，然后通过AOP就可以直接使用。 何为AOP（面向切面编程），为了最大程度上分离关注点，通过将一些公共的模块抽取出来，然后再需要的地方通过声明的方式将AOP的类插入进去。</p>
+<p>如上图所示，有一些例如Log，Security，Tansaction Manager公共的服务模块，在我们写每个业务类的时候都需要，并且可以插入到调用的方法之前，之后，抛出异常时等地方，通过把所有公共组件统一封装起来，然后通过AOP就可以直接使用,而不需要硬编码地放上去。 何为AOP（面向切面编程），为了最大程度上分离关注点，通过将一些公共的模块抽取出来，然后再需要的地方通过声明的方式将AOP的类插入进去。</p>
+
+<ul>
+<li>通过模板，极大地封装代码，使得我们只需要写业务代码。</li>
+</ul>
 
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <g:plusone></g:plusone>
